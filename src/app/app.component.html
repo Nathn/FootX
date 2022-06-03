@@ -1,0 +1,69 @@
+<div class="toolbar" role="banner" [ngStyle]="{ 'user-select': blur == '5px' ? 'none' : 'auto', 'filter': 'blur(' + blur + ')' }">
+  <img
+    class="toolbar-logo"
+    width="40"
+    alt="FootX Logo"
+    src="../assets/football.svg"
+  />
+  <span>FootX</span>
+    <div class="spacer"></div>
+    <img
+      class="help-logo"
+      width="40"
+      alt="Help Button"
+      src="../assets/help.svg"
+      (click)="openHelp()"
+    />
+</div>
+
+<div class="content" role="main" [ngStyle]="{ 'user-select': blur == '5px' ? 'none' : 'auto', 'filter': 'blur(' + blur + ')' }">
+  <div class="stats">
+    <div class="stat" title="Best score">
+      <span class="material-symbols-rounded" style="position: relative; top: 3px; color: gold;">
+        star
+      </span>
+      <span> {{maxscore}}</span>
+    </div>
+    <div class="stat" title="Current score">
+      <span class="material-symbols-rounded" style="position: relative; top: 3px; color: #e35520;">
+        local_fire_department
+      </span>
+      <span> {{score}}</span>
+    </div>
+    <div class="stat" title="Remaining lives">
+      <span class="material-symbols-rounded" style="position: relative; top: 3px; color: red;">
+        favorite
+      </span>
+      <span> {{lives}}</span>
+  </div>
+  </div>
+  <div class="name">
+    <template #nameContainer></template>
+  </div>
+  <div class="card-container">
+    <button (click)="answerClicked(1)" class="card real">
+      Real
+    </button>
+    <button (click)="answerClicked(0)" class="card fake">
+      Fake
+    </button>
+  </div>
+  <div class="answer">
+    <template #answerContainer></template>
+  </div>
+  <div class="game-over" (click)="playAgain()">
+    <template #gameoverContainer></template>
+  </div>
+</div>
+
+<div class="help" [ngStyle]="{ 'display': blur == '5px' ? 'block' : 'none' }">
+  <div class="help_container" style="filter: blur(0);">
+    <button class="help_button" (click)="closeHelp()">X</button>
+    <h1 class="help_title">What is FootX ?</h1>
+    <p class="help_text">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non gravida ipsum, vitae imperdiet lacus. Proin accumsan ex eget neque malesuada egestas. Fusce pretium urna sed facilisis dignissim.
+      <br/>
+      Ut id tincidunt erat, ut vestibulum dui. Phasellus ut lacus eget libero elementum vehicula. Curabitur non augue dui. Cras sodales libero nec lacus consectetur, sed molestie neque mollis. Nullam pharetra vel ex sit amet semper. Aenean fringilla vitae turpis non finibus. Etiam sit amet erat sed mi suscipit rutrum at non arcu. Fusce euismod, velit in vehicula sollicitudin, sem purus aliquet purus, id convallis felis ligula eget nibh.
+    </p>
+  </div>
+</div>

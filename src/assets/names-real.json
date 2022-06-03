@@ -1,0 +1,1884 @@
+{
+    "players": [
+        {
+            "name": "Cristiano Ronaldo",
+            "team": "Manchester United",
+            "position": "Forward"
+        },
+        {
+            "name": "Lionel Messi",
+            "team": "PSG",
+            "position": "Forward"
+        },
+        {
+            "name": "Kylian Mbappe",
+            "team": "PSG",
+            "position": "Forward"
+        },
+        {
+            "name": "Neymar JR",
+            "team": "PSG",
+            "position": "Forward"
+        },
+        {
+            "name": "Vinicius JR",
+            "team": "Real Madrid",
+            "position": "Forward"
+        },
+        {
+            "name": "Eden Hazard",
+            "team": "Real Madrid",
+            "position": "Forward"
+        },
+        {
+            "name": "Paul Pogba",
+            "team": "Manchester United",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Luka Modrić",
+            "team": "Real Madrid",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Erling Haaland",
+            "team": "Manchester City",
+            "position": "Forward"
+        },
+        {
+            "name": "Mohamed Salah",
+            "team": "Liverpool",
+            "position": "Forward"
+        },
+        {
+            "name": "Harry Kane",
+            "team": "Tottenham Hotspur",
+            "position": "Forward"
+        },
+        {
+            "name": "Phil Foden",
+            "team": "Manchester City",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Bruno Fernandes",
+            "team": "Manchester United",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Kevin De Bruyne",
+            "team": "Manchester City",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Dušan Vlahović",
+            "team": "Juventus",
+            "position": "Forward"
+        },
+        {
+            "name": "Joshua Kimmich",
+            "team": "Bayern Munich",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Raheem Sterling",
+            "team": "Manchester City",
+            "position": "Forward"
+        },
+        {
+            "name": "Romelu Lukaku",
+            "team": "Chelsea",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Pedri",
+            "team": "FC Barcelona",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Jadon Sancho",
+            "team": "Manchester United",
+            "position": "Forward"
+        },
+        {
+            "name": "Trent Alexander-Arnold",
+            "team": "Liverpool",
+            "position": "Defender"
+        },
+        {
+            "name": "Jack Grealish",
+            "team": "Manchester City",
+            "position": "Forward"
+        },
+        {
+            "name": "Sadio Mané",
+            "team": "Liverpool",
+            "position": "Forward"
+        },
+        {
+            "name": "Heung-Min Son",
+            "team": "Tottenham Hotspur",
+            "position": "Forward"
+        },
+        {
+            "name": "Jude Bellingham",
+            "team": "Borussia Dortmund",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Declan Rice",
+            "team": "West Ham",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Mason Mount",
+            "team": "Chelsea",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Ruben Dias",
+            "team": "Manchester City",
+            "position": "Defender"
+        },
+        {
+            "name": "Bernardo Silva",
+            "team": "Manchester City",
+            "position": "Forward"
+        },
+        {
+            "name": "Florian Wirtz",
+            "team": "Bayer Leverkusen",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Joao Felix",
+            "team": "Atletico Madrid",
+            "position": "Forward"
+        },
+        {
+            "name": "Alphonso Davies",
+            "team": "Bayern Munich",
+            "position": "Defender"
+        },
+        {
+            "name": "Gareth Bale",
+            "team": "Real Madrid",
+            "position": "Forward"
+        },
+        {
+            "name": "Lautaro Martínez",
+            "team": "Inter Milan",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Rodri",
+            "team": "Manchester City",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Mikel Oyarzabal",
+            "team": "Real Sociedad",
+            "position": "Forward"
+        },
+        {
+            "name": "Federico Chiesa",
+            "team": "Juventus",
+            "position": "Forward"
+        },
+        {
+            "name": "Frenkie de Jong",
+            "team": "FC Barcelona",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Matthijs de Ligt",
+            "team": "Juventus",
+            "position": "Defender"
+        },
+        {
+            "name": "Kai Havertz",
+            "team": "Chelsea",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Sergej Milinković-Savić",
+            "team": "SS Lazio",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Marcus Rashford",
+            "team": "Manchester United",
+            "position": "Forward"
+        },
+        {
+            "name": "Nicolò Barella",
+            "team": "Inter Milan",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Leroy Sané",
+            "team": "Bayern Munich",
+            "position": "Forward"
+        },
+        {
+            "name": "Marquinhos",
+            "team": "PSG",
+            "position": "Defender"
+        },
+        {
+            "name": "Serge Gnabry",
+            "team": "Bayern Munich",
+            "position": "Forward"
+        },
+        {
+            "name": "Leon Goretzka",
+            "team": "Bayern Munich",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Bukayo Saka",
+            "team": "Arsenal",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Achraf Hakimi",
+            "team": "PSG",
+            "position": "Defender"
+        },
+        {
+            "name": "Frederico Valverde",
+            "team": "Real Madrid",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Christopher Nkunku",
+            "team": "RB Leipzig",
+            "position": "Forward"
+        },
+        {
+            "name": "Andrew Robertson",
+            "team": "Liverpool",
+            "position": "Defender"
+        },
+        {
+            "name": "Milan Skriniar",
+            "team": "Inter Milan",
+            "position": "Defender"
+        },
+        {
+            "name": "Thibaut Courtois",
+            "team": "Real Madrid",
+            "position": "Goalkeeper"
+        },
+        {
+            "name": "Gavi",
+            "team": "FC Barcelona",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Ansu Fati",
+            "team": "FC Barcelona",
+            "position": "Forward"
+        },
+        {
+            "name": "Aurélien Tchouameni",
+            "team": "Monaco",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Jules Koundé",
+            "team": "FC Sevilla",
+            "position": "Defender"
+        },
+        {
+            "name": "Victor Osimhen",
+            "team": "Napoli",
+            "position": "Forward"
+        },
+        {
+            "name": "Éder Militão",
+            "team": "Real Madrid",
+            "position": "Defender"
+        },
+        {
+            "name": "Diogo Jota",
+            "team": "Liverpool",
+            "position": "Forward"
+        },
+        {
+            "name": "Alessandro Bastoni",
+            "team": "Inter Milan",
+            "position": "Defender"
+        },
+        {
+            "name": "Marcos Llorente",
+            "team": "Atletico Madrid",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Wilfred Ndidi",
+            "team": "Leicester City",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Kingsley Coman",
+            "team": "Bayern Munich",
+            "position": "Forward"
+        },
+        {
+            "name": "Fabinho",
+            "team": "Liverpool",
+            "position": "Midfielder"
+        },
+        {
+            "name": "João Cancelo",
+            "team": "Manchester City",
+            "position": "Defender"
+        },
+        {
+            "name": "Raphaël Varane",
+            "team": "Manchester United",
+            "position": "Defender"
+        },
+        {
+            "name": "Jan Oblak",
+            "team": "Atlético Madrid",
+            "position": "Goalkeeper"
+        },
+        {
+            "name": "Alisson",
+            "team": "Liverpool",
+            "position": "Goalkeeper"
+        },
+        {
+            "name": "Eduardo Camavinga",
+            "team": "Real Madrid",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Jamal Musiala",
+            "team": "Bayern Munich",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Darwin Núñez",
+            "team": "Benfica",
+            "position": "Forward"
+        },
+        {
+            "name": "Reece James",
+            "team": "Chelsea",
+            "position": "Defender"
+        },
+        {
+            "name": "Moussa Diaby",
+            "team": "Bayer Leverkusen",
+            "position": "Forward"
+        },
+        {
+            "name": "Fabián Ruiz",
+            "team": "Napoli",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Youri Tielemans",
+            "team": "Leicester City",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Virgil van Dijk",
+            "team": "Liverpool",
+            "position": "Defender"
+        },
+        {
+            "name": "David Alaba",
+            "team": "Real Madrid",
+            "position": "Defender"
+        },
+        {
+            "name": "Pau Torres",
+            "team": "Villarreal",
+            "position": "Defender"
+        },
+        {
+            "name": "Richarlison",
+            "team": "Everton",
+            "position": "Forward"
+        },
+        {
+            "name": "Carlos Soler",
+            "team": "Valencia",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Gabriel Jesus",
+            "team": "Manchester City",
+            "position": "Forward"
+        },
+        {
+            "name": "Rafael Leão",
+            "team": "Milan AC",
+            "position": "Forward"
+        },
+        {
+            "name": "Arnaut Danjuma",
+            "team": "Villarreal",
+            "position": "Forward"
+        },
+        {
+            "name": "Kalvin Phillips",
+            "team": "Leeds United",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Mikel Merino",
+            "team": "Real Sociedad",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Gianluigi Donnarumma",
+            "team": "PSG",
+            "position": "Goalkeeper"
+        },
+        {
+            "name": "James Maddison",
+            "team": "Leicester City",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Ferland Mendy",
+            "team": "Real Madrid",
+            "position": "Defender"
+        },
+        {
+            "name": "Lucas Hernández",
+            "team": "Bayern Munich",
+            "position": "Centre-Back"
+        },
+        {
+            "name": "José María Giménez",
+            "team": "Atletico Madrid",
+            "position": "Centre-Back"
+        },
+        {
+            "name": "Ederson",
+            "team": "Manchester City",
+            "position": "Goalkeeper"
+        },
+        {
+            "name": "N'Golo Kanté",
+            "team": "Chelsea",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Piotr Zielinski",
+            "team": "Napoli",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Antoine Griezmann",
+            "team": "Atlético Madrid",
+            "position": "Forward"
+        },
+        {
+            "name": "Marco Verratti",
+            "team": "PSG",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Robert Lewandowski",
+            "team": "Bayern Munich",
+            "position": "Forward"
+        },
+        {
+            "name": "Casemiro",
+            "team": "Real Madrid",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Theo Hernández",
+            "team": "Milan AC",
+            "position": "Defender"
+        },
+        {
+            "name": "Jonathan David",
+            "team": "LOSC Lille",
+            "position": "Forward"
+        },
+        {
+            "name": "Luis Díaz",
+            "team": "Liverpool",
+            "position": "Forward"
+        },
+        {
+            "name": "Raphinha",
+            "team": "Leeds United",
+            "position": "Forward"
+        },
+        {
+            "name": "Ferran Torres",
+            "team": "FC Barcelona",
+            "position": "Forward"
+        },
+        {
+            "name": "Dayot Upamecano",
+            "team": "Bayern Munich",
+            "position": "Defender"
+        },
+        {
+            "name": "Tammy Abraham",
+            "team": "AS Roma",
+            "position": "Forward"
+        },
+        {
+            "name": "Diego Carlos",
+            "team": "Aston Villa",
+            "position": "Defender"
+        },
+        {
+            "name": "Caglar Söyüncü",
+            "team": "Leicester City",
+            "position": "Defender"
+        },
+        {
+            "name": "Christian Pulisic",
+            "team": "Chelsea",
+            "position": "Forward"
+        },
+        {
+            "name": "Fikayo Tomori",
+            "team": "Milan AC",
+            "position": "Defender"
+        },
+        {
+            "name": "Franck Kessié",
+            "team": "Milan AC",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Dani Olmo",
+            "team": "RB Leipzig",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Lorenzo Pellegrini",
+            "team": "AS Roma",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Tomas Soucek",
+            "team": "West Ham",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Ángel Correa",
+            "team": "Atlético Madrid",
+            "position": "Forward"
+        },
+        {
+            "name": "Aymeric Laporte",
+            "team": "Manchester City",
+            "position": "Defender"
+        },
+        {
+            "name": "Memphis Depay",
+            "team": "FC Barcelona",
+            "position": "Forward"
+        },
+        {
+            "name": "Jorginho",
+            "team": "Chelsea",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Kalidou Koulibaly",
+            "team": "Napoli",
+            "position": "Defender"
+        },
+        {
+            "name": "Marc-André ter Stegen",
+            "team": "FC Barcelona",
+            "position": "Goalkeeper"
+        },
+        {
+            "name": "Mateo Kovacic",
+            "team": "Chelsea",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Giovanni Reyna",
+            "team": "Borussia Dortmund",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Amine Gouiri",
+            "team": "OGC Nice",
+            "position": "Forward"
+        },
+        {
+            "name": "Martin Ødegaard",
+            "team": "Arsenal",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Dominic Calvert-Lewin",
+            "team": "Everton",
+            "position": "Forward"
+        },
+        {
+            "name": "Luke Shaw",
+            "team": "Manchester United",
+            "position": "Defender"
+        },
+        {
+            "name": "Timo Werner",
+            "team": "Chelsea",
+            "position": "Forward"
+        },
+        {
+            "name": "Nuno Mendes",
+            "team": "PSG",
+            "position": "Defender"
+        },
+        {
+            "name": "Yéremy Pino",
+            "team": "Villarreal",
+            "position": "Forward"
+        },
+        {
+            "name": "Edmond Tapsoba",
+            "team": "PSG",
+            "position": "Bayer Leverkusen"
+        },
+        {
+            "name": "Ronald Araújo",
+            "team": "FC Barcelona",
+            "position": "Defender"
+        },
+        {
+            "name": "Wesley Fofana",
+            "team": "Leicester City",
+            "position": "Defender"
+        },
+        {
+            "name": "Rodrygo",
+            "team": "Real Madrid",
+            "position": "Forward"
+        },
+        {
+            "name": "Sandro Tonali",
+            "team": "Milan AC",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Emile Smith Rowe",
+            "team": "Arsenal",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Cristian Romero",
+            "team": "Tottenham Hotspur",
+            "position": "Defender"
+        },
+        {
+            "name": "Alexander Isak",
+            "team": "Real Sociedad",
+            "position": "Forward"
+        },
+        {
+            "name": "Ben White",
+            "team": "Arsenal",
+            "position": "Defender"
+        },
+        {
+            "name": "Marco Asensio",
+            "team": "Real Madrid",
+            "position": "Forward"
+        },
+        {
+            "name": "Presnel Kimpembe",
+            "team": "PSG",
+            "position": "Defender"
+        },
+        {
+            "name": "Rodrigo de Paul",
+            "team": "Atlético Madrid",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Patrik Schick",
+            "team": "Bayer Leverkusen",
+            "position": "Forward"
+        },
+        {
+            "name": "Thomas Partey",
+            "team": "Arsenal",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Rúben Neves",
+            "team": "Wolverhampton",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Gonçalo Guedes",
+            "team": "Valencia CF",
+            "position": "Forward"
+        },
+        {
+            "name": "José Gayà",
+            "team": "Valencia CF",
+            "position": "Defender"
+        },
+        {
+            "name": "Paulo Dybala",
+            "team": "Juventus",
+            "position": "Forward"
+        },
+        {
+            "name": "Thomas Lemar",
+            "team": "Atlético Madrid",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Harry Maguire",
+            "team": "Manchester United",
+            "position": "Defender"
+        },
+        {
+            "name": "Gerard Moreno",
+            "team": "Villarreal",
+            "position": "Forward"
+        },
+        {
+            "name": "Riyad Mahrez",
+            "team": "Manchester City",
+            "position": "Forward"
+        },
+        {
+            "name": "Pierre-Emile Höjbjerg",
+            "team": "Tottenham Hotspur",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Marcelo Brozovic",
+            "team": "Inter Milan",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Wilfried Zaha",
+            "team": "Crystal Palace",
+            "position": "Forward"
+        },
+        {
+            "name": "Yannick Carrasco",
+            "team": "Atlético Madrid",
+            "position": "Forward"
+        },
+        {
+            "name": "Gabriel Martinelli",
+            "team": "Arsenal",
+            "position": "Forward"
+        },
+        {
+            "name": "Ben Chilwell",
+            "team": "Chelsea",
+            "position": "Defender"
+        },
+        {
+            "name": "André Silva",
+            "team": "RB Leipzig",
+            "position": "Forward"
+        },
+        {
+            "name": "Roberto Firmino",
+            "team": "Liverpool",
+            "position": "Forward"
+        },
+        {
+            "name": "Antony",
+            "team": "Ajax Amsterdam",
+            "position": "Forward"
+        },
+        {
+            "name": "Matheus Nunes",
+            "team": "Sporting CP",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Karim Adeyemi",
+            "team": "RB Salzburg",
+            "position": "Forward"
+        },
+        {
+            "name": "Pedro Neto",
+            "team": "Wolverhampton",
+            "position": "Forward"
+        },
+        {
+            "name": "Ryan Gravenberch",
+            "team": "Ajax Amsterdam",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Douglas Luiz",
+            "team": "Aston Villa",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Lucas Paquetá",
+            "team": "Olympique Lyonnais",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Youssef En-Nesyri",
+            "team": "FC Sevilla",
+            "position": "Forward"
+        },
+        {
+            "name": "Dejan Kulusevski",
+            "team": "Tottenham Hotspur",
+            "position": "Forward"
+        },
+        {
+            "name": "Yves Bissouma",
+            "team": "Brighton",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Ollie Watkins",
+            "team": "Aston Villa",
+            "position": "Forward"
+        },
+        {
+            "name": "Emiliano Buendía",
+            "team": "Aston Villa",
+            "position": "Forward"
+        },
+        {
+            "name": "Hirving Lozano",
+            "team": "Napoli",
+            "position": "Forward"
+        },
+        {
+            "name": "Scott McTominay",
+            "team": "Manchester United",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Jarrod Bowen",
+            "team": "West Ham",
+            "position": "Forward"
+        },
+        {
+            "name": "Robin Gosens",
+            "team": "Inter Milan",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Manuel Locatelli",
+            "team": "Juventus",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Ivan Toney",
+            "team": "Brentford",
+            "position": "Forward"
+        },
+        {
+            "name": "Nabil Fekir",
+            "team": "Real Betis",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Andreas Christensen",
+            "team": "Chelsea",
+            "position": "Defender"
+        },
+        {
+            "name": "Domenico Berardi",
+            "team": "Sassuolo",
+            "position": "Forward"
+        },
+        {
+            "name": "Raphaël Guerreiro",
+            "team": "Borussia Dortmund",
+            "position": "Defender"
+        },
+        {
+            "name": "Niklas Süle",
+            "team": "Bayern Munich",
+            "position": "Defender"
+        },
+        {
+            "name": "Hakan Calhanoglu",
+            "team": "Inter Milan",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Stefan de Vrij",
+            "team": "Inter Milan",
+            "position": "Defender"
+        },
+        {
+            "name": "Antonio Rüdiger",
+            "team": "Chelsea",
+            "position": "Defender"
+        },
+        {
+            "name": "Koke",
+            "team": "Atlético Madrid",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Ilkay Gündogan",
+            "team": "Manchester City",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Nicolò Zaniolo",
+            "team": "AS Roma",
+            "position": "Forward"
+        },
+        {
+            "name": "Lisandro Martínez",
+            "team": "Ajax Amsterdam",
+            "position": "Defender"
+        },
+        {
+            "name": "Edouard Mendy",
+            "team": "Chelsea",
+            "position": "Goalkeeper"
+        },
+        {
+            "name": "Harvey Barnes",
+            "team": "Leicester City",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Kieran Tierney",
+            "team": "Arsenal",
+            "position": "Defender"
+        },
+        {
+            "name": "Allan Saint-Maximin",
+            "team": "Newcastle United",
+            "position": "Forward"
+        },
+        {
+            "name": "Tyrone Mings",
+            "team": "Aston Villa",
+            "position": "Defender"
+        },
+        {
+            "name": "Hakim Ziyech",
+            "team": "Chelsea",
+            "position": "Midfielder"
+        },
+        {
+            "name": "James Ward-Prowse",
+            "team": "Southampton",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Luis Alberto",
+            "team": "SS Lazio",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Emiliano Martínez",
+            "team": "Aston Villa",
+            "position": "Goalkeeper"
+        },
+        {
+            "name": "Bruno Guimarães",
+            "team": "Newcastle United",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Matheus Cunha",
+            "team": "Atlético Madrid",
+            "position": "Forward"
+        },
+        {
+            "name": "Gleison Bremer",
+            "team": "Torino",
+            "position": "Defender"
+        },
+        {
+            "name": "William Saliba",
+            "team": "Olympique de Marseille",
+            "position": "Defender"
+        },
+        {
+            "name": "Vitinha",
+            "team": "FC Porto",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Aaron Wan-Bissaka",
+            "team": "Manchester United",
+            "position": "Defender"
+        },
+        {
+            "name": "Josko Gvardiol",
+            "team": "RB Leipzig",
+            "position": "Defender"
+        },
+        {
+            "name": "Benoît Badiashile",
+            "team": "AS Monaco",
+            "position": "Defender"
+        },
+        {
+            "name": "Tanguy Ndombélé",
+            "team": "Olympique Lyonnais",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Charles De Ketelaere",
+            "team": "Club Brugge",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Gabriel",
+            "team": "Arsenal",
+            "position": "Defender"
+        },
+        {
+            "name": "Curtis Jones",
+            "team": "Liverpool",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Pedro Gonçalves",
+            "team": "Sporting CP",
+            "position": "Forward"
+        },
+        {
+            "name": "Jurrien Timber",
+            "team": "Ajax Amsterdam",
+            "position": "Defender"
+        },
+        {
+            "name": "Callum Hudson-Odoi",
+            "team": "Chelsea",
+            "position": "Forward"
+        },
+        {
+            "name": "Marc Guéhi",
+            "team": "Crystal Palace",
+            "position": "Defender"
+        },
+        {
+            "name": "Leon Bailey",
+            "team": "Aston Villa",
+            "position": "Forward"
+        },
+        {
+            "name": "Sven Botman",
+            "team": "LOSC Lille",
+            "position": "Defender"
+        },
+        {
+            "name": "Ibrahima Konaté",
+            "team": "Liverpool",
+            "position": "Defender"
+        },
+        {
+            "name": "André Zambo Anguissa",
+            "team": "Napoli",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Benjamin Pavard",
+            "team": "Bayern Munich",
+            "position": "Defender"
+        },
+        {
+            "name": "Ismaël Bennacer",
+            "team": "Milan AC",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Robin Le Normand",
+            "team": "Real Sociedad",
+            "position": "Defender"
+        },
+        {
+            "name": "Nicolas Pépé",
+            "team": "Arsenal",
+            "position": "Forward"
+        },
+        {
+            "name": "Davinson Sánchez",
+            "team": "Tottenham Hotspur",
+            "position": "Defender"
+        },
+        {
+            "name": "Merih Demiral",
+            "team": "Atalanta BC",
+            "position": "Defender"
+        },
+        {
+            "name": "Gianluca Scamacca",
+            "team": "Sassuolo",
+            "position": "Forward"
+        },
+        {
+            "name": "Naby Keïta",
+            "team": "Liverpool",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Ousmane Dembélé",
+            "team": "FC Barcelona",
+            "position": "Forward"
+        },
+        {
+            "name": "Manuel Akanji",
+            "team": "Borussia Dortmund",
+            "position": "Defender"
+        },
+        {
+            "name": "Angeliño",
+            "team": "RB Leipzig",
+            "position": "Defender"
+        },
+        {
+            "name": "Joan Jordán",
+            "team": "FC Sevilla",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Otávio",
+            "team": "FC Porto",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Ruslan Malinovskyi",
+            "team": "Atalanta BC",
+            "position": "Midfielder"
+        },
+        {
+            "name": "John McGinn",
+            "team": "Aston Villa",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Lucas Ocampos",
+            "team": "FC Sevilla",
+            "position": "Forward"
+        },
+        {
+            "name": "Sébastien Haller",
+            "team": "Ajax Amsterdam",
+            "position": "Forward"
+        },
+        {
+            "name": "Leander Dendoncker",
+            "team": "Wolverhampton",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Karim Benzema",
+            "team": "Real Madrid",
+            "position": "Forward"
+        },
+        {
+            "name": "John Stones",
+            "team": "Manchester City",
+            "position": "Defender"
+        },
+        {
+            "name": "Andrea Belotti",
+            "team": "Torino",
+            "position": "Forward"
+        },
+        {
+            "name": "Kurt Zouma",
+            "team": "West Ham",
+            "position": "Defender"
+        },
+        {
+            "name": "Álvaro Morata",
+            "team": "Juventus",
+            "position": "Forward"
+        },
+        {
+            "name": "Lucas Digne",
+            "team": "Aston Villa",
+            "position": "Defender"
+        },
+        {
+            "name": "Ciro Immobile",
+            "team": "SS Lazio",
+            "position": "Forward"
+        },
+        {
+            "name": "Duván Zapata",
+            "team": "Atalanta BC",
+            "position": "Forward"
+        },
+        {
+            "name": "Hugo Ekitike",
+            "team": "Stade de Reims",
+            "position": "Forward"
+        },
+        {
+            "name": "Dominik Szoboszlai",
+            "team": "RB Leipzig",
+            "position": "Forward"
+        },
+        {
+            "name": "Giacomo Raspadori",
+            "team": "Sassuolo",
+            "position": "Forward"
+        },
+        {
+            "name": "Nico Schlotterbeck",
+            "team": "SC Freiburg",
+            "position": "Defender"
+        },
+        {
+            "name": "Evan Ndicka",
+            "team": "Eintracht Frankfurt",
+            "position": "Defender"
+        },
+        {
+            "name": "Moise Kean",
+            "team": "Juventus",
+            "position": "Forward"
+        },
+        {
+            "name": "Boubakary Soumaré",
+            "team": "Leicester City",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Sergio Reguilón",
+            "team": "Tottenham Hotspur",
+            "position": "Defender"
+        },
+        {
+            "name": "Timothy Castagne",
+            "team": "Leicester City",
+            "position": "Defender"
+        },
+        {
+            "name": "Renato Sanches",
+            "team": "LOSC Lille",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Mario Pasalic",
+            "team": "Atalanta BC",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Adama Traoré",
+            "team": "FC Barcelona",
+            "position": "Forward"
+        },
+        {
+            "name": "Saúl Ñíguez",
+            "team": "Chelsea",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Mohamed Camara",
+            "team": "RB Salzburg",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Ismaïla Sarr",
+            "team": "Watford",
+            "position": "Forward"
+        },
+        {
+            "name": "Denis Zakaria",
+            "team": "Juventus",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Donyell Malen",
+            "team": "Borussia Dortmund",
+            "position": "Forward"
+        },
+        {
+            "name": "Xaver Schlager",
+            "team": "Wolfsburg",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Matteo Politano",
+            "team": "Napoli",
+            "position": "Forward"
+        },
+        {
+            "name": "Joaquín Correa",
+            "team": "Inter Milan",
+            "position": "Forward"
+        },
+        {
+            "name": "Konrad Laimer",
+            "team": "RB Leipzig",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Pedro Porro",
+            "team": "Sporting CP",
+            "position": "Defender"
+        },
+        {
+            "name": "Fábio Vieira",
+            "team": "FC Porto",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Roger Ibañez",
+            "team": "AS Roma",
+            "position": "Defender"
+        },
+        {
+            "name": "Tino Livramento",
+            "team": "Southampton",
+            "position": "Defender"
+        },
+        {
+            "name": "Conor Gallagher",
+            "team": "Chelsea",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Juan Foyth",
+            "team": "Villarreal",
+            "position": "Defender"
+        },
+        {
+            "name": "Emerson Royal",
+            "team": "Tottenham Hotspur",
+            "position": "Defender"
+        },
+        {
+            "name": "Mattéo Guendouzi",
+            "team": "Olympique de Marseille",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Martin Terrier",
+            "team": "Stade Rennais FC",
+            "position": "Forward"
+        },
+        {
+            "name": "Cody Gakpo",
+            "team": "PSV",
+            "position": "Forward"
+        },
+        {
+            "name": "Youssef En-Nesyri",
+            "team": "FC Sevilla",
+            "position": "Forward"
+        },
+        {
+            "name": "Aaron Ramsdale",
+            "team": "Arsenal",
+            "position": "Goalkeeper"
+        },
+        {
+            "name": "Ezri Konsa",
+            "team": "Aston Villa",
+            "position": "Defender"
+        },
+        {
+            "name": "Houssem Aouar",
+            "team": "Olympique Lyonnais",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Maxence Caqueret",
+            "team": "Olympique Lyonnais",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Boubacar Kamara",
+            "team": "Olympique de Marseille",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Brenden Aaronson",
+            "team": "RB Salzburg",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Teun Koopmeiners",
+            "team": "Atalanta BC",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Diogo Costa",
+            "team": "FC Porto",
+            "position": "Goalkeeper"
+        },
+        {
+            "name": "Rodrigo Bentancur",
+            "team": "Tottenham Hotspur",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Nordi Mukiele",
+            "team": "RB Leipzig",
+            "position": "Defender"
+        },
+        {
+            "name": "Guido Rodríguez",
+            "team": "Real Betis",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Weston McKennie",
+            "team": "Juventus",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Takehiro Tomiyasu",
+            "team": "Arsenal",
+            "position": "Defender"
+        },
+        {
+            "name": "Nikola Vlasic",
+            "team": "West Ham",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Saïd Benrahma",
+            "team": "West Ham",
+            "position": "Forward"
+        },
+        {
+            "name": "Donny van de Beek",
+            "team": "Manchester United",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Thomas Müller",
+            "team": "Bayern Munich",
+            "position": "Forward"
+        },
+        {
+            "name": "Viktor Tsygankov",
+            "team": "Dynamo Kiev",
+            "position": "Forward"
+        },
+        {
+            "name": "Aleksandr Golovin",
+            "team": "AS Monaco",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Davide Calabria",
+            "team": "Milan AC",
+            "position": "Defender"
+        },
+        {
+            "name": "Unai Simón",
+            "team": "Athletic Bilbao",
+            "position": "Goalkeeper"
+        },
+        {
+            "name": "Amir Rrahmani",
+            "team": "Napoli",
+            "position": "Defender"
+        },
+        {
+            "name": "João Palhinha",
+            "team": "Sporting CP",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Gianluca Mancini",
+            "team": "AS Roma",
+            "position": "Defender"
+        },
+        {
+            "name": "Iñaki Williams",
+            "team": "Athletic Bilbao",
+            "position": "Forward"
+        },
+        {
+            "name": "Enes Ünal",
+            "team": "Getafe CF",
+            "position": "Forward"
+        },
+        {
+            "name": "Nélson Semedo",
+            "team": "Wolverhampton",
+            "position": "Defender"
+        },
+        {
+            "name": "Ricardo Pereira",
+            "team": "Leicester City",
+            "position": "Defender"
+        },
+        {
+            "name": "Oleksandr Zinchenko",
+            "team": "Manchester City",
+            "position": "Defender"
+        },
+        {
+            "name": "Jonathan Tah",
+            "team": "Bayer Leverkusen",
+            "position": "Defender"
+        },
+        {
+            "name": "Julian Brandt",
+            "team": "Borussia Dortmund",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Mike Maignan",
+            "team": "Milan AC",
+            "position": "Goalkeeper"
+        },
+        {
+            "name": "Seko Fofana",
+            "team": "RC Lens",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Sardar Azmoun",
+            "team": "Bayer Leverkusen",
+            "position": "Forward"
+        },
+        {
+            "name": "Nathan Aké",
+            "team": "Manchester City",
+            "position": "Defender"
+        },
+        {
+            "name": "Giovanni Di Lorenzo",
+            "team": "Napoli",
+            "position": "Defender"
+        },
+        {
+            "name": "Raúl de Tomás",
+            "team": "Espanyol Barcelona",
+            "position": "Forward"
+        },
+        {
+            "name": "Iñigo Martínez",
+            "team": "Athletic Bilbao",
+            "position": "Defender"
+        },
+        {
+            "name": "Wissam Ben Yedder",
+            "team": "AS Monaco",
+            "position": "Forward"
+        },
+        {
+            "name": "Lorenzo Insigne",
+            "team": "Napoli",
+            "position": "Forward"
+        },
+        {
+            "name": "Jordan Pickford",
+            "team": "Everton",
+            "position": "Goalkeeper"
+        },
+        {
+            "name": "Conor Coady",
+            "team": "Wolverhampton",
+            "position": "Defender"
+        },
+        {
+            "name": "Abdoulaye Doucouré",
+            "team": "Everton",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Kyle Walker",
+            "team": "Manchester City",
+            "position": "Defender"
+        },
+        {
+            "name": "Pablo Sarabia",
+            "team": "Sporting CP",
+            "position": "Forward"
+        },
+        {
+            "name": "Nicolás González",
+            "team": "Fiorentina",
+            "position": "Forward"
+        },
+        {
+            "name": "Amadou Haidara",
+            "team": "RB Leipzig",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Eljif Elmas",
+            "team": "Napoli",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Victor Lindelöf",
+            "team": "Manchester United",
+            "position": "Defender"
+        },
+        {
+            "name": "Remo Freuler",
+            "team": "Atalanta BC",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Matthias Ginter",
+            "team": "Borussia Mönchengladbach",
+            "position": "Defender"
+        },
+        {
+            "name": "Gonçalo Inácio",
+            "team": "Sporting CP",
+            "position": "Defender"
+        },
+        {
+            "name": "Nikola Milenković",
+            "team": "Fiorentina",
+            "position": "Defender"
+        },
+        {
+            "name": "Lukas Klostermann",
+            "team": "RB Leipzig",
+            "position": "Defender"
+        },
+        {
+            "name": "Nico Elvedi",
+            "team": "Borussia Mönchengladbach",
+            "position": "Defender"
+        },
+        {
+            "name": "Evanilson",
+            "team": "FC Porto",
+            "position": "Forward"
+        },
+        {
+            "name": "Dwight McNeil",
+            "team": "Burnley",
+            "position": "Forward"
+        },
+        {
+            "name": "Michael Olise",
+            "team": "Crystal Palace",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Harvey Elliott",
+            "team": "Liverpool",
+            "position": "Forward"
+        },
+        {
+            "name": "Jacob Ramsey",
+            "team": "Aston Villa",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Max Aarons",
+            "team": "Norwich City",
+            "position": "Defender"
+        },
+        {
+            "name": "Matty Cash",
+            "team": "Aston Villa",
+            "position": "Defender"
+        },
+        {
+            "name": "Francisco Trincão",
+            "team": "Wolverhampton",
+            "position": "Forward"
+        },
+        {
+            "name": "Hamed Junior Traorè",
+            "team": "Sassuolo",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Tetê",
+            "team": "Olympique Lyonnais",
+            "position": "Forward"
+        },
+        {
+            "name": "Sasa Kalajdzic",
+            "team": "VFB Stuttgart",
+            "position": "Forward"
+        },
+        {
+            "name": "Patson Daka",
+            "team": "Leicester City",
+            "position": "Forward"
+        },
+        {
+            "name": "Daichi Kamada",
+            "team": "Eintracht Frankfurt",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Giovani Lo Celso",
+            "team": "Villarreal",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Ben Godfrey",
+            "team": "Everton",
+            "position": "Defender"
+        },
+        {
+            "name": "Gerson",
+            "team": "Olympique de Marseille",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Cengiz Ünder",
+            "team": "Olympique de Marseille",
+            "position": "Forward"
+        },
+        {
+            "name": "Joe Willock",
+            "team": "Newcastle United",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Noa Lang",
+            "team": "Club Brugge",
+            "position": "Forward"
+        },
+        {
+            "name": "Jonathan Ikoné",
+            "team": "Fiorentina",
+            "position": "Forward"
+        },
+        {
+            "name": "Christoph Baumgartner",
+            "team": "Hoffenheim",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Malcom",
+            "team": "Zenit Saint Petersburg",
+            "position": "Forward"
+        },
+        {
+            "name": "Brahim Díaz",
+            "team": "Milan AC",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Demarai Gray",
+            "team": "Everton",
+            "position": "Forward"
+        },
+        {
+            "name": "Florian Neuhaus",
+            "team": "Borussia Monchengladbach",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Joan Jordán",
+            "team": "FC Sevilla",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Joachim Andersen",
+            "team": "Crystal Palace",
+            "position": "Defender"
+        },
+        {
+            "name": "Daniel Podence",
+            "team": "Wolverhampton",
+            "position": "Forward"
+        },
+        {
+            "name": "Joe Gomez",
+            "team": "Liverpool",
+            "position": "Defender"
+        },
+        {
+            "name": "Jan Bednarek",
+            "team": "Southampton",
+            "position": "Defender"
+        },
+        {
+            "name": "Reinildo Mandava",
+            "team": "Atlético Madrid",
+            "position": "Defender"
+        },
+        {
+            "name": "Thilo Kehrer",
+            "team": "PSG",
+            "position": "Defender"
+        },
+        {
+            "name": "Álex Remiro",
+            "team": "Real Sociedad",
+            "position": "Goalkeeper"
+        },
+        {
+            "name": "Dele Alli",
+            "team": "Everton",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Raúl Jiménez",
+            "team": "Wolverhampton",
+            "position": "Forward"
+        },
+        {
+            "name": "Julian Weigl",
+            "team": "Benfica",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Fred",
+            "team": "Manchester United",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Ante Rebic",
+            "team": "Milan AC",
+            "position": "Forward"
+        },
+        {
+            "name": "Eric Dier",
+            "team": "Tottenham Hotspur",
+            "position": "Defender"
+        },
+        {
+            "name": "James Tarkowski",
+            "team": "Burnley",
+            "position": "Defender"
+        },
+        {
+            "name": "Jordan Veretout",
+            "team": "AS Roma",
+            "position": "Midfielder"
+        },
+        {
+            "name": "Lewis Dunk",
+            "team": "Brighton",
+            "position": "Defender"
+        },
+        {
+            "name": "Danny Ings",
+            "team": "Aston Villa",
+            "position": "Forward"
+        },
+        {
+            "name": "Luis Muriel",
+            "team": "Atalanta BC",
+            "position": "Forward"
+        },
+        {
+            "name": "Michael Keane",
+            "team": "Everton",
+            "position": "Defender"
+        }
+    ]
+}
