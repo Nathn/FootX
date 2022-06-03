@@ -1,0 +1,232 @@
+:host {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 18px;
+    color: #333;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 8px 0;
+}
+
+p {
+    margin: 0;
+}
+
+.spacer {
+    flex: 1;
+}
+
+.toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    background-color: #1e0d30;
+    color: white;
+    font-weight: 600;
+    border-bottom: #e6ebf1 1px solid;
+}
+
+.toolbar img {
+    height: 40px;
+    margin-left: 32px;
+    filter: invert(99%) sepia(100%) saturate(0%) hue-rotate(94deg) brightness(101%) contrast(103%);
+}
+
+.toolbar-logo {
+    margin-right: 16px;
+}
+
+.help-logo {
+    margin-right: 32px;
+    transition: all 0.2s ease-in-out;
+}
+
+.help-logo:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+
+.content {
+    position: absolute;
+    top: 75px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1e0d30;
+    font-weight: 600;
+    border-top: white 3px solid;
+}
+
+.stats {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: max-content;
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    border-bottom: white 3px solid;
+    border-right: white 3px solid;
+    border-bottom-right-radius: 8px;
+    padding: 12px 48px 12px 32px;
+}
+
+.stat {
+    position: relative;
+    top: 3px;
+    padding: 12px 0;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 16px 0;
+}
+
+.card {
+    all: unset;
+    border-radius: 4px;
+    border: 1px solid #eee;
+    background-color: #fafafa;
+    color: #1e0d30;
+    height: 40px;
+    width: 200px;
+    margin: 0 8px 16px;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    line-height: 24px;
+    user-select: none;
+}
+
+.card-container .card:not(:last-child) {
+    margin-right: 0;
+}
+
+.card-container .card {
+    cursor: pointer;
+}
+
+.card-container .card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+}
+
+.card-container .card:hover path {
+    fill: rgb(105, 103, 103);
+}
+
+.name {
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 35px;
+}
+
+.answer {
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+}
+
+.game-over {
+    margin: 15px 0;
+    text-align: center;
+}
+
+.help_container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 45%;
+    max-width: 600px;
+    padding: 2em;
+    background-color: #fff;
+    border-radius: 0.5em;
+    box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.5);
+    border: 3px solid #1e0d30;
+}
+
+.help_title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #1e0d30;
+    text-decoration: underline;
+    margin-bottom: 18px;
+}
+
+.help_text {
+    text-align: justify;
+    font-size: 22px;
+    color: #1e0d30;
+}
+
+.help_button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #1e0d30;
+    border-radius: 50%;
+    border: 3px solid #1e0d30;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 0 .5em #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+a,
+a:visited,
+a:hover {
+    color: #1976d2;
+    text-decoration: none;
+}
+
+.real:hover {
+    color: #036203;
+}
+
+.fake:hover {
+    color: #7b0f0f;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 767px) {
+    .card-container {
+        width: 100%;
+    }
+
+    .card {
+        height: 16px;
+        margin: 8px 0;
+    }
+}

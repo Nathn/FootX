@@ -1,16 +1,18 @@
-import { NgModule } from '@angular/core';
+//our root app component
+import { NgModule } from '@angular/core'
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
+import { NameComponent } from './name.component';
+import { AnswerComponent } from './answer.component';
+import { GameOverComponent } from './gameover.component';
+import { App } from './app.component';
 
-import { AppComponent } from './app.component';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+  imports: [BrowserModule, BrowserAnimationsModule, HttpClientModule],
+  declarations: [App, NameComponent, AnswerComponent, GameOverComponent],
+  entryComponents: [NameComponent, AnswerComponent, GameOverComponent],
+  bootstrap: [App]
 })
 export class AppModule { }
