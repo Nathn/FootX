@@ -5,7 +5,7 @@ import { NameComponent } from './name.component';
 import { AnswerComponent } from './answer.component';
 import { GameOverComponent } from './gameover.component';
 @Component({
-	selector: 'app-root',
+	selector: 'footx',
 	templateUrl: './app.component.html',
 	styleUrls: ['./app.component.css']
 })
