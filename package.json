@@ -13,10 +13,10 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "~13.3.0",
-    "@angular/cli": "x.x.x",
+    "@angular/cli": "^14.0.0",
     "@angular/common": "~13.3.0",
     "@angular/compiler": "~13.3.0",
-    "@angular/compiler-cli": "x.x.x",
+    "@angular/compiler-cli": "~13.3.0",
     "@angular/core": "~13.3.0",
     "@angular/forms": "~13.3.0",
     "@angular/platform-browser": "~13.3.0",
@@ -27,7 +27,7 @@
     "path": "^0.12.7",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
-    "typescript": "x.x.x",
+    "typescript": "~4.6.2",
     "zone.js": "^0.11.5"
   },
   "devDependencies": {
