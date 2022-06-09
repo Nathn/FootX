@@ -165,6 +165,16 @@ p {
     text-align: center;
 }
 
+@media screen and (max-width: 491px) {
+    .answer {
+        font-size: 18px;
+    }
+
+    .card {
+        padding: 12px;
+    }
+}
+
 .game-over {
     margin: 15px 0;
     text-align: center;
