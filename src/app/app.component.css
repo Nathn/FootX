@@ -140,6 +140,22 @@ p {
     font-weight: 600;
     font-size: 24px;
     margin-top: 35px;
+    max-width: 500px;
+    text-align: center;
+}
+
+@media screen and (max-width: 850px) {
+    .name {
+        margin-top: 120px;
+        max-width: 320px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .name {
+        margin-top: 225px;
+        max-width: none;
+    }
 }
 
 .answer {
@@ -224,7 +240,9 @@ a:hover {
     .card-container {
         width: 100%;
     }
+}
 
+@media screen and (max-width: 467px) {
     .card {
         height: 16px;
         margin: 8px 0;
