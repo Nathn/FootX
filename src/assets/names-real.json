@@ -87,7 +87,7 @@
         },
         {
             "name": "Romelu Lukaku",
-            "team": "Chelsea",
+            "team": "Inter Milan",
             "position": "Midfielder"
         },
         {
@@ -112,7 +112,7 @@
         },
         {
             "name": "Sadio Mané",
-            "team": "Liverpool",
+            "team": "Bayern Munich",
             "position": "Forward"
         },
         {
@@ -161,11 +161,6 @@
             "position": "Defender"
         },
         {
-            "name": "Gareth Bale",
-            "team": "Real Madrid",
-            "position": "Forward"
-        },
-        {
             "name": "Lautaro Martínez",
             "team": "Inter Milan",
             "position": "Midfielder"
@@ -192,7 +187,7 @@
         },
         {
             "name": "Matthijs de Ligt",
-            "team": "Juventus",
+            "team": "Bayern Munich",
             "position": "Defender"
         },
         {
@@ -282,7 +277,7 @@
         },
         {
             "name": "Aurélien Tchouameni",
-            "team": "Monaco",
+            "team": "Real Madrid",
             "position": "Midfielder"
         },
         {
@@ -362,7 +357,7 @@
         },
         {
             "name": "Darwin Núñez",
-            "team": "Benfica",
+            "team": "Liverpool",
             "position": "Forward"
         },
         {
@@ -402,7 +397,7 @@
         },
         {
             "name": "Richarlison",
-            "team": "Everton",
+            "team": "Tottenham Hotspur",
             "position": "Forward"
         },
         {
@@ -487,7 +482,7 @@
         },
         {
             "name": "Robert Lewandowski",
-            "team": "Bayern Munich",
+            "team": "FC Barcelona",
             "position": "Forward"
         },
         {
@@ -632,7 +627,7 @@
         },
         {
             "name": "Timo Werner",
-            "team": "Chelsea",
+            "team": "RB Leipzig",
             "position": "Forward"
         },
         {
@@ -657,7 +652,7 @@
         },
         {
             "name": "Wesley Fofana",
-            "team": "Leicester City",
+            "team": "Chelsea",
             "position": "Defender"
         },
         {
@@ -732,7 +727,7 @@
         },
         {
             "name": "Paulo Dybala",
-            "team": "Juventus",
+            "team": "AS Roma",
             "position": "Forward"
         },
         {
@@ -1037,7 +1032,7 @@
         },
         {
             "name": "Charles De Ketelaere",
-            "team": "Club Brugge",
+            "team": "Milan AC",
             "position": "Midfielder"
         },
         {
@@ -1267,7 +1262,7 @@
         },
         {
             "name": "Renato Sanches",
-            "team": "LOSC Lille",
+            "team": "PSG",
             "position": "Midfielder"
         },
         {
