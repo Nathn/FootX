@@ -215,7 +215,6 @@ p {
     font-size: 40px;
     font-weight: bold;
     color: #1e0d30;
-    text-decoration: underline;
     margin-bottom: 18px;
 }
 
@@ -240,10 +239,13 @@ p {
     font-weight: 700;
     text-align: center;
     text-decoration: none;
-    text-shadow: 0 0 .5em #fff;
     text-transform: uppercase;
     cursor: pointer;
-    transition: all .2s ease-in-out;
+}
+
+.help_button span {
+    position: relative;
+    top: 2px;
 }
 
 a,

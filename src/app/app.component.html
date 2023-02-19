@@ -76,10 +76,14 @@
 
 <div class="help" [ngStyle]="{ 'display': blur == '5px' ? 'block' : 'none' }">
 	<div class="help_container" style="filter: blur(0);">
-		<button class="help_button" (click)="closeHelp()">X</button>
+		<button class="help_button" (click)="closeHelp()">
+			<span class="material-icons-round">
+				close
+			</span>
+		</button>
 		<h1 class="help_title">What is FootX ?</h1>
 		<p class="help_text">
-			Your goal is to differentiate real footballers from randomly generated fake ones.
+			Your goal is to differentiate real footballers from randomly generated fake ones. Have fun !
 			<br />
 			Data from <a href="https://transfermarkt.com/">Transfermarkt</a>.
 			<br />
