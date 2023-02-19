@@ -23,6 +23,7 @@ export class App {
 	constructor(private httpService: HttpClient) { };
 	componentRef: ComponentRef<any>;
 	blur: string = '0px';
+	leaderboard: any = [];
 
 	@ViewChild('nameContainer', { read: ViewContainerRef }) nameContainer;
 	@ViewChild("answerContainer", { read: ViewContainerRef }) answerContainer;
@@ -111,6 +112,12 @@ export class App {
 		} else {
 			this.gameoverContainer.clear();
 			this.componentRef = this.gameoverContainer.createComponent(GameOverComponent);
+			this.addScoreToLeaderboard(this.score);
+			this.httpService.get("/scores").subscribe(
+				data => {
+					this.leaderboard = data;
+				}
+			);
 		}
 	}
 
@@ -140,7 +147,24 @@ export class App {
 		this.blur = '0px';
 	}
 
+	addScoreToLeaderboard(score) {
+		let randomName = "Anon" + Math.floor(Math.random() * 1000);
+		this.httpService.post("/scores", {
+			name: randomName,
+			score: score
+		}).subscribe(
+			data => {
+				console.log(data);
+			}
+		);
+	}
+
 	ngAfterViewInit() {
+		this.httpService.get("/scores").subscribe(
+			data => {
+				this.leaderboard = data;
+			}
+		);
 		if (!localStorage.getItem('name')) {
 			this.createComponent(0);
 		} else {

@@ -1,73 +1,89 @@
-<div class="toolbar" role="banner" [ngStyle]="{ 'user-select': blur == '5px' ? 'none' : 'auto', 'filter': 'blur(' + blur + ')' }">
-  <img
-    class="toolbar-logo"
-    width="40"
-    alt="FootX Logo"
-    src="../assets/football.svg"
-  />
-  <span>FootX</span>
-    <div class="spacer"></div>
-    <img
-      class="help-logo"
-      width="40"
-      alt="Help Button"
-      src="../assets/help.svg"
-      (click)="openHelp()"
-    />
+<div class="toolbar" role="banner"
+	[ngStyle]="{ 'user-select': blur == '5px' ? 'none' : 'auto', 'filter': 'blur(' + blur + ')' }">
+	<img class="toolbar-logo" width="40" alt="FootX Logo" src="../assets/football.svg" />
+	<span>FootX</span>
+	<div class="spacer"></div>
+	<img class="help-logo" width="40" alt="Help Button" src="../assets/help.svg" (click)="openHelp()" />
 </div>
 
-<div class="content" role="main" [ngStyle]="{ 'user-select': blur == '5px' ? 'none' : 'auto', 'filter': 'blur(' + blur + ')' }">
-  <div class="stats">
-    <div class="stat" title="Best score">
-      <span class="material-symbols-rounded" style="position: relative; top: 3px; color: gold;">
-        star
-      </span>
-      <span> {{maxscore}}</span>
-    </div>
-    <div class="stat" title="Current score">
-      <span class="material-symbols-rounded" style="position: relative; top: 3px; color: #e35520;">
-        local_fire_department
-      </span>
-      <span> {{score}}</span>
-    </div>
-    <div class="stat" title="Remaining lives">
-      <span class="material-symbols-rounded" style="position: relative; top: 3px; color: red;">
-        favorite
-      </span>
-      <span> {{lives}}</span>
-  </div>
-  </div>
-  <div class="name">
-    <template #nameContainer></template>
-  </div>
-  <div class="card-container">
-    <button (click)="answerClicked(1)" class="card real">
-      Real
-    </button>
-    <button (click)="answerClicked(0)" class="card fake">
-      Fake
-    </button>
-  </div>
-  <div class="answer">
-    <template #answerContainer></template>
-  </div>
-  <div class="game-over" (click)="playAgain()">
-    <template #gameoverContainer></template>
-  </div>
+<div class="content" role="main"
+	[ngStyle]="{ 'user-select': blur == '5px' ? 'none' : 'auto', 'filter': 'blur(' + blur + ')' }">
+	<div class="stats">
+		<div class="stat" title="Best score">
+			<span class="material-symbols-rounded" style="position: relative; top: 3px; color: gold;">
+				star
+			</span>
+			<span> {{maxscore}}</span>
+		</div>
+		<div class="stat" title="Current score">
+			<span class="material-symbols-rounded" style="position: relative; top: 3px; color: #e35520;">
+				local_fire_department
+			</span>
+			<span> {{score}}</span>
+		</div>
+		<div class="stat" title="Remaining lives">
+			<span class="material-symbols-rounded" style="position: relative; top: 3px; color: red;">
+				favorite
+			</span>
+			<span> {{lives}}</span>
+		</div>
+	</div>
+	<div class="leaderboard">
+		<div class="stat">
+			<span class="material-symbols-rounded" style="position: relative; top: 3px; color: white;">
+				leaderboard
+			</span>
+			<span>
+				Leaderboard
+			</span>
+		</div>
+		<div class="stat" *ngFor="let player of leaderboard; let i = index" style="padding: 4px 0;">
+			<span class="material-icons-round" style="position: relative; top: 3px; color: gold;" *ngIf="i == 0">
+				emoji_events
+			</span>
+			<span class="material-icons-round" style="position: relative; top: 3px; color: silver;" *ngIf="i == 1">
+				workspace_premium
+			</span>
+			<span class="material-icons-round" style="position: relative; top: 3px; color: #cd7f32;" *ngIf="i == 2">
+				workspace_premium
+			</span>
+			<span class="material-icons-round" style="position: relative; top: 3px; color: white;" *ngIf="i == 3">
+				workspace_premium
+			</span>
+			<span> {{player.name}} - {{player.score}}</span>
+		</div>
+	</div>
+	<div class="name">
+		<template #nameContainer></template>
+	</div>
+	<div class="card-container">
+		<button (click)="answerClicked(1)" class="card real">
+			Real
+		</button>
+		<button (click)="answerClicked(0)" class="card fake">
+			Fake
+		</button>
+	</div>
+	<div class="answer">
+		<template #answerContainer></template>
+	</div>
+	<div class="game-over" (click)="playAgain()">
+		<template #gameoverContainer></template>
+	</div>
 </div>
 
 <div class="help" [ngStyle]="{ 'display': blur == '5px' ? 'block' : 'none' }">
-  <div class="help_container" style="filter: blur(0);">
-    <button class="help_button" (click)="closeHelp()">X</button>
-    <h1 class="help_title">What is FootX ?</h1>
-    <p class="help_text">
-      Your goal is to differentiate real footballers from randomly generated fake ones.
-      <br/>
-      Data from <a href="https://transfermarkt.com/">Transfermarkt</a>.
-      <br/>
-      Made with <a href="https://nodejs.org">Node.JS</a> and <a href="https://angular.io/">Angular</a>.
-      <br/>
-      By <a href="https://github.com/Nathn">Nathan Tranchant</a>.
-    </p>
-  </div>
+	<div class="help_container" style="filter: blur(0);">
+		<button class="help_button" (click)="closeHelp()">X</button>
+		<h1 class="help_title">What is FootX ?</h1>
+		<p class="help_text">
+			Your goal is to differentiate real footballers from randomly generated fake ones.
+			<br />
+			Data from <a href="https://transfermarkt.com/">Transfermarkt</a>.
+			<br />
+			Made with <a href="https://nodejs.org">Node.JS</a> and <a href="https://angular.io/">Angular</a>.
+			<br />
+			By <a href="https://github.com/Nathn">Nathan Tranchant</a>.
+		</p>
+	</div>
 </div>
