@@ -60,8 +60,8 @@ export class App {
 				data => {
 					let firstname = data["firstnames"][Math.floor(Math.random() * data["firstnames"].length)];
 					let lastname = data["lastnames"][Math.floor(Math.random() * data["lastnames"].length)];
-					if (Math.random() > 0.98) lastname = "JR";
-					if (Math.random() > 0.99) lastname += "-" + data["lastnames"][Math.floor(Math.random() * data["lastnames"].length)];
+					if (Math.random() > 0.98) lastname += "-" + data["lastnames"][Math.floor(Math.random() * data["lastnames"].length)];
+					if (Math.random() > 0.99) lastname = "JR";
 					this.name = firstname + " " + lastname;
 					this.componentRef.instance.name = firstname + " " + lastname;
 					localStorage.setItem('name', this.name);
