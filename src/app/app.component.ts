@@ -20,6 +20,7 @@ export class App {
 	@Input() position: string = localStorage.getItem('position') || "";
 	@Input() answer: number = parseInt(localStorage.getItem('answer') || "0");
 	@Input() alreadyAnswered: number[] = JSON.parse(localStorage.getItem('already_answered') || "[]");
+	@Input() randomName: string = localStorage.getItem('random_name') || ("Anon" + Math.floor(Math.random() * 10000));
 	constructor(private httpService: HttpClient) { };
 	componentRef: ComponentRef<any>;
 	blur: string = '0px';
@@ -148,9 +149,8 @@ export class App {
 	}
 
 	addScoreToLeaderboard(score) {
-		let randomName = "Anon" + Math.floor(Math.random() * 1000);
 		this.httpService.post("/scores", {
-			name: randomName,
+			name: this.randomName,
 			score: score
 		}).subscribe(
 			data => {
@@ -165,6 +165,9 @@ export class App {
 				this.leaderboard = data;
 			}
 		);
+		if (!localStorage.getItem('random_name')) {
+			localStorage.setItem('random_name', this.randomName);
+		}
 		if (!localStorage.getItem('name')) {
 			this.createComponent(0);
 		} else {

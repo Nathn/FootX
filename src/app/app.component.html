@@ -50,7 +50,9 @@
 			<span class="material-icons-round" style="position: relative; top: 3px; color: white;" *ngIf="i == 3">
 				workspace_premium
 			</span>
-			<span> {{player.name}} - {{player.score}}</span>
+			<span [ngStyle]="{ 'color': player.name == randomName ? 'chocolate' : 'white' }">
+				{{player.name}} - {{player.score}}
+			</span>
 		</div>
 	</div>
 	<div class="name">
