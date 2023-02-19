@@ -402,12 +402,12 @@
         },
         {
             "name": "Carlos Soler",
-            "team": "Valencia",
+            "team": "PSG",
             "position": "Midfielder"
         },
         {
             "name": "Gabriel Jesus",
-            "team": "Manchester City",
+            "team": "Arsenal",
             "position": "Forward"
         },
         {
@@ -997,7 +997,7 @@
         },
         {
             "name": "Gleison Bremer",
-            "team": "Torino",
+            "team": "Juventus",
             "position": "Defender"
         },
         {
@@ -1007,8 +1007,13 @@
         },
         {
             "name": "Vitinha",
-            "team": "FC Porto",
+            "team": "PSG",
             "position": "Midfielder"
+        },
+        {
+            "name": "Vitinha",
+            "team": "Olympique de Marseille",
+            "position": "Forward"
         },
         {
             "name": "Aaron Wan-Bissaka",
@@ -1027,7 +1032,7 @@
         },
         {
             "name": "Tanguy Ndombélé",
-            "team": "Olympique Lyonnais",
+            "team": "Napoli",
             "position": "Midfielder"
         },
         {
@@ -1102,7 +1107,7 @@
         },
         {
             "name": "Nicolas Pépé",
-            "team": "Arsenal",
+            "team": "OGC Nice",
             "position": "Forward"
         },
         {
@@ -1227,12 +1232,12 @@
         },
         {
             "name": "Giacomo Raspadori",
-            "team": "Sassuolo",
+            "team": "Napoli",
             "position": "Forward"
         },
         {
             "name": "Nico Schlotterbeck",
-            "team": "SC Freiburg",
+            "team": "Borussia Dortmund",
             "position": "Defender"
         },
         {
@@ -1294,6 +1299,11 @@
             "name": "Denis Zakaria",
             "team": "Juventus",
             "position": "Midfielder"
+        },
+        {
+            "name": "Arnaud Kalimuendo",
+            "team": "Stade Rennais FC",
+            "position": "Forward"
         },
         {
             "name": "Donyell Malen",
@@ -1772,7 +1782,7 @@
         },
         {
             "name": "Florian Neuhaus",
-            "team": "Borussia Monchengladbach",
+            "team": "Borussia Mönchengladbach",
             "position": "Midfielder"
         },
         {
@@ -1852,7 +1862,7 @@
         },
         {
             "name": "Jordan Veretout",
-            "team": "AS Roma",
+            "team": "Olympique de Marseille",
             "position": "Midfielder"
         },
         {
