@@ -12,11 +12,11 @@ require('dotenv').config({
 // Middleware to parse JSON request bodies
 app.use(bodyParser.json());
 
+mongoose.set('strictQuery', true);
 mongoose.connect(process.env.MONGO_URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
-mongoose.set('strictQuery', true);
 mongoose.Promise = global.Promise;
 mongoose.connection.on('error', (err) => {
     console.log(`An error occured while connecting to the database: ${err}`);
