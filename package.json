@@ -2,8 +2,8 @@
   "name": "footx",
   "version": "1.1.2",
   "engines": {
-    "node": "16.14.0",
-    "npm": "8.5.0"
+    "node": "18.x",
+    "npm": "9.x"
   },
   "scripts": {
     "heroku-postbuild": "ng build --aot",
