@@ -1,4 +1,4 @@
-import { Component, Input, ComponentRef, ViewContainerRef, ViewChild } from '@angular/core'
+import { Component, Input, ComponentRef, ViewContainerRef, ViewChild, HostListener } from '@angular/core'
 import { HttpClient } from '@angular/common/http';
 import { HttpErrorResponse } from '@angular/common/http';
 import { NameComponent } from './name.component';
@@ -170,6 +170,15 @@ export class App {
 		} else {
 		  	localStorage.setItem('user_name', this.userName);
 			this.invalidNameMsg = "";
+		}
+	}
+
+	@HostListener('document:keydown', ['$event'])
+	handleKeyboardEvent(event: KeyboardEvent) {
+		if (event.key == "ArrowLeft") {
+			this.answerClicked(1);
+		} else if (event.key == "ArrowRight") {
+			this.answerClicked(0);
 		}
 	}
 
