@@ -152,7 +152,7 @@
         },
         {
             "name": "Joao Felix",
-            "team": "Atletico Madrid",
+            "team": "Atlético Madrid",
             "position": "Forward"
         },
         {
@@ -307,7 +307,7 @@
         },
         {
             "name": "Marcos Llorente",
-            "team": "Atletico Madrid",
+            "team": "Atlético Madrid",
             "position": "Midfielder"
         },
         {
@@ -452,7 +452,7 @@
         },
         {
             "name": "José María Giménez",
-            "team": "Atletico Madrid",
+            "team": "Atlético Madrid",
             "position": "Centre-Back"
         },
         {
@@ -577,12 +577,12 @@
         },
         {
             "name": "Memphis Depay",
-            "team": "FC Barcelona",
+            "team": "Atlético Madrid",
             "position": "Forward"
         },
         {
             "name": "Jorginho",
-            "team": "Chelsea",
+            "team": "Arsenal",
             "position": "Midfielder"
         },
         {
@@ -591,7 +591,7 @@
             "position": "Defender"
         },
         {
-            "name": "Marc-André ter Stegen",
+            "name": "Marc-André Ter Stegen",
             "team": "FC Barcelona",
             "position": "Goalkeeper"
         },
@@ -802,7 +802,7 @@
         },
         {
             "name": "Karim Adeyemi",
-            "team": "RB Salzburg",
+            "team": "Borussia Dortmund",
             "position": "Forward"
         },
         {
@@ -822,7 +822,7 @@
         },
         {
             "name": "Lucas Paquetá",
-            "team": "Olympique Lyonnais",
+            "team": "West Ham",
             "position": "Midfielder"
         },
         {
@@ -837,7 +837,7 @@
         },
         {
             "name": "Yves Bissouma",
-            "team": "Brighton",
+            "team": "Tottenham Hotspur",
             "position": "Midfielder"
         },
         {
@@ -884,6 +884,11 @@
             "name": "Nabil Fekir",
             "team": "Real Betis",
             "position": "Midfielder"
+        },
+        {
+            "name": "William Saliba",
+            "team": "Arsenal",
+            "position": "Defender"
         },
         {
             "name": "Andreas Christensen",
@@ -998,11 +1003,6 @@
         {
             "name": "Gleison Bremer",
             "team": "Juventus",
-            "position": "Defender"
-        },
-        {
-            "name": "William Saliba",
-            "team": "Olympique de Marseille",
             "position": "Defender"
         },
         {
