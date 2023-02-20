@@ -106,6 +106,20 @@ p {
     padding: 12px 32px 20px 48px;
 }
 
+.username-input {
+    font-size: 20px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    margin: 8px 0;
+    max-width: 400px;
+    background-color: #fafafa;
+    color: #1e0d30;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+    margin-bottom: 0;
+}
+
 .card-container {
     display: flex;
     flex-wrap: wrap;

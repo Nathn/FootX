@@ -50,8 +50,22 @@
 			<span class="material-icons-round" style="position: relative; top: 3px; color: white;" *ngIf="i > 2">
 				workspace_premium
 			</span>
-			<span [ngStyle]="{ 'color': player.name == randomName ? 'chocolate' : 'white' }">
+			<span [ngStyle]="{ 'color': player.name == userName ? 'chocolate' : 'white' }">
 				{{player.name}} - {{player.score}}
+			</span>
+		</div>
+		<div class="stat" style="border-top: 3px solid white; margin-top: 10px;">
+			<span class="material-icons-round" style="position: relative; top: 3px; color: white;">
+				person
+			</span>
+			<span>
+				Current name
+			</span>
+			<br />
+			<input class="username-input" type="text" [(ngModel)]="userName" (ngModelChange)="onNameChange()" placeholder="Enter your name"/>
+			<br />
+			<span *ngIf="invalidNameMsg" style="color: red; font-size: 18px;">
+				{{invalidNameMsg}}
 			</span>
 		</div>
 	</div>

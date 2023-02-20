@@ -20,10 +20,11 @@ export class App {
 	@Input() position: string = localStorage.getItem('position') || "";
 	@Input() answer: number = parseInt(localStorage.getItem('answer') || "0");
 	@Input() alreadyAnswered: number[] = JSON.parse(localStorage.getItem('already_answered') || "[]");
-	@Input() randomName: string = localStorage.getItem('random_name') || ("Anon" + Math.floor(Math.random() * 10000));
+	@Input() userName: string = localStorage.getItem('user_name') || ("Anon" + Math.floor(Math.random() * 10000));
 	constructor(private httpService: HttpClient) { };
 	componentRef: ComponentRef<any>;
 	blur: string = '0px';
+	invalidNameMsg: string = "";
 	leaderboard: any = [];
 
 	@ViewChild('nameContainer', { read: ViewContainerRef }) nameContainer;
@@ -150,7 +151,7 @@ export class App {
 
 	addScoreToLeaderboard(score) {
 		this.httpService.post("/scores", {
-			name: this.randomName,
+			name: this.userName,
 			score: score
 		}).subscribe(
 			data => {
@@ -159,14 +160,27 @@ export class App {
 		);
 	}
 
+	onNameChange() {
+		if (this.userName.length < 3) {
+			this.invalidNameMsg = "Name is too short !";
+			this.userName = localStorage.getItem('user_name');
+		} else if (this.userName.length > 20) {
+			this.invalidNameMsg = "Name is too long !";
+			this.userName = localStorage.getItem('user_name');
+		} else {
+		  	localStorage.setItem('user_name', this.userName);
+			this.invalidNameMsg = "";
+		}
+	}
+
 	ngAfterViewInit() {
 		this.httpService.get("/scores").subscribe(
 			data => {
 				this.leaderboard = data;
 			}
 		);
-		if (!localStorage.getItem('random_name')) {
-			localStorage.setItem('random_name', this.randomName);
+		if (!localStorage.getItem('user_name')) {
+			localStorage.setItem('user_name', this.userName);
 		}
 		if (!localStorage.getItem('name')) {
 			this.createComponent(0);
