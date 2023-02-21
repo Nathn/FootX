@@ -175,9 +175,9 @@ export class App {
 
 	@HostListener('document:keydown', ['$event'])
 	handleKeyboardEvent(event: KeyboardEvent) {
-		if (event.key == "ArrowLeft") {
+		if (event.key == "ArrowLeft" || event.key == "ArrowUp") {
 			this.answerClicked(1);
-		} else if (event.key == "ArrowRight") {
+		} else if (event.key == "ArrowRight" || event.key == "ArrowDown") {
 			this.answerClicked(0);
 		}
 	}
