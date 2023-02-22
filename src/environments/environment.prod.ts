@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  token: "P2%XSNB@rtm\\>3qC"
 };

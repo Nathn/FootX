@@ -1,9 +1,9 @@
 import { Component, Input, ComponentRef, ViewContainerRef, ViewChild, HostListener } from '@angular/core'
-import { HttpClient } from '@angular/common/http';
-import { HttpErrorResponse } from '@angular/common/http';
+import { HttpClient, HttpHeaders, HttpErrorResponse } from '@angular/common/http';
 import { NameComponent } from './name.component';
 import { AnswerComponent } from './answer.component';
 import { GameOverComponent } from './gameover.component';
+import { environment } from '../environments/environment';
 @Component({
 	selector: 'footx',
 	templateUrl: './app.component.html',
@@ -150,9 +150,12 @@ export class App {
 	}
 
 	addScoreToLeaderboard(score) {
+		// post request to server with x-access-token header
 		this.httpService.post("/scores", {
 			name: this.userName,
 			score: score
+		}, {
+			headers: new HttpHeaders().set('x-access-token', environment.token)
 		}).subscribe(
 			data => {
 				console.log(data);
