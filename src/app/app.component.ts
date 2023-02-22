@@ -175,6 +175,8 @@ export class App {
 
 	@HostListener('document:keydown', ['$event'])
 	handleKeyboardEvent(event: KeyboardEvent) {
+		let usernameInput = document.getElementsByClassName("username-input")[0];
+		if (usernameInput && usernameInput == document.activeElement) return;
 		if (event.key == "ArrowLeft" || event.key == "ArrowUp") {
 			this.answerClicked(1);
 		} else if (event.key == "ArrowRight" || event.key == "ArrowDown") {
