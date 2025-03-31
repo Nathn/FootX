@@ -1,9 +1,10 @@
 {
   "name": "footx",
   "version": "1.1.2",
+  "private": false,
   "engines": {
-    "node": "18.x",
-    "npm": "9.x"
+    "node": "22.x",
+    "npm": "10.x"
   },
   "scripts": {
     "heroku-postbuild": "ng build --aot",
@@ -13,7 +14,6 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "latest",
     "@angular/cli": "latest",
